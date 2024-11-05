@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    height: 1000px;
+}
+
+.Help{
+    display: flex;
+    background-color: #dddddd;
+    color: rgb(42, 42, 42);
+    justify-content: space-around;
+    position: sticky;
+    top: 0px;
+}
+
+.AreaAjuda{
+    display: flex;
+    align-items: center;
+
+}
+.AjudaNav{
+    margin-left: 10px;
+
+}
+.TCK{
+}
+header{
+    display: flex;
+    justify-content: center;
+    color: rgb(42, 42, 42);
+    background-color: #dddddd;
+    height: 20vh;
+    font-size: 29px;
+}
+
+h1{
+
+}
+
+.Tipos{
+    display: flex;
+    background-color: #343434;
+    color: white;
+    font-size: 3ch;
+    justify-content: space-around;  
+
+
+}
+
+.NavItem{
+    transition: 0.5s;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+
+}
+
+.NavItem:hover{
+background-color: #dddddd;
+color: #343434;
+}
+
+.Casdastro{
+    position: absolute;
+    top: 4vh;
+    right:6vh;
+    background-color: #343434;
+    color: #dddddd;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: #343434 9px 7px 1px 1px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.Casdastro:hover{
+    box-shadow: #343434 0px 0px 0px 0px;
+}
+
+a{
+color: white;
+text-decoration: none;
+}
